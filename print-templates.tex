@@ -14,6 +14,15 @@
 \setCJKfamilyfont{zhbiaosong}{FZXiaoBiaoSong-B05}
 \newcommand{\biaosongti}{\CJKfamily{zhbiaosong}}
 
+\xeCJKDeclareCharClass{CJK}{
+  "24EA,           % ⓪
+  "2460 -> "2473,  % ① 至 ⑳
+  "3251 -> "32BF,  % ㉑ 至 ㊿
+  "24FF,           % ⓿
+  "2776 -> "277F,  % ❶ 至 ❿ (反白)
+  "24EB -> "24F4   % ⓫ 至 ⓴ (反白)
+}
+
 \setstretch{1.45}
 \setlength{\parindent}{0pt}
 \setlength{\columnsep}{0.8em}
